@@ -10,10 +10,9 @@ const producto = "Audifonos Gamer"; // Iniciar variable y asignarle valor
 producto = true; // Reasignando el valor de la variable
 
 const disponible = true;
-
- const producto1 = "Computadora",
-    disponibilidad = true;
-    categoria = 'Computadoras'
+const producto1 = "Computadora",
+        disponibilidad = true;
+        categoria = 'Computadoras'
 
 // Estilos para las variables
 const nombre_producto = ' Monitor HD'; // underscore
