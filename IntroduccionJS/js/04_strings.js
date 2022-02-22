@@ -17,6 +17,7 @@ const productoComillas = "Monitor de 11\"";
 // Métodos para strings
 const producto = 'Monitor Curvo';
 const producto2 = 'Monitor HD';
+
 // .length Retorna la cantidad de carateres--------------------------
 // .length es un método exclusivo de las cadenas de texto
 console.log(producto.length);

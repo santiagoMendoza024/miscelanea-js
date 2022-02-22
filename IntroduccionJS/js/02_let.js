@@ -1,6 +1,7 @@
 //Variables con let
 /* 
-    var es una palabra reservada de javascript
+    var es una palabra reservada de javascript, a diferencia de var, let solo puede ser utilizada en donde se declaro, var es global
+    
 */
 let producto = "Audifonos Gamer"; // Iniciar variable y asignarle valor
 let disponible; //iniciamos la variable pero sin valor
