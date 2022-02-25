@@ -14,8 +14,21 @@ const producto = {
     disponible: true
 }
 // propiedad o llave del objeto : valor
-console.log(producto);
+    // console.log(producto);
 // Como accedemos a una propiedad del objeto - sintaxis de punto
-console.log(producto.precio);
+    // console.log(producto.precio);
 //Otra forma de acceder es con []
-console.log(producto["precio"])
+    // console.log(producto["precio"])
+
+/** Agregar nuevas propiedades
+ * Una caracteristica de los objetos es que puedes agregar o quitar información
+ * con el . agregas una propiedad que no estaba
+ */
+
+producto.imagen = 'imagen.jpg'
+
+/** Eliminar Propiedades
+ * palabra reservada delete nameObjeto.propiedadAeliminar
+ */
+delete producto.disponible;
+console.log(producto)
